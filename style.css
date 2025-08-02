@@ -463,6 +463,38 @@ footer li {
     width: 140px;
     height: 140px;
   }
+
+  /* gpt */
+
+  .offcanvas .navbar-nav {
+    display: block;
+    text-align: left;
+  }
+
+  .offcanvas-end {
+    transform: translateX(100%);
+  }
+
+  .offcanvas.show {
+    transform: translateX(0%) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .offcanvas {
+    background-color: white !important;
+    color: black;
+  }
+
+  .offcanvas .nav-link {
+    color: black !important;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  .offcanvas .btn-close {
+    filter: invert(1); /* supaya tombol close juga terlihat di latar putih */
+  }
 }
 
 /* Mobile phone */
