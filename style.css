@@ -91,7 +91,7 @@ body {
 .home h2,
 .info h2,
 .story h2,
-.galerry h2,
+.gallery h2,
 .rsvp h2,
 .gifts h2 {
   color: var(--pink);
@@ -176,7 +176,7 @@ body {
 }
 
 .story,
-.galerry,
+.gallery,
 .rsvp,
 .gifts {
   padding-top: 10rem;
@@ -184,7 +184,7 @@ body {
 }
 
 .story span,
-.galerry span,
+.gallery span,
 .gifts span {
   text-transform: uppercase;
   color: #666;
@@ -195,7 +195,7 @@ body {
 }
 
 .story p,
-.galerry p,
+.gallery p,
 .rsvp p,
 .gifts p {
   font-size: 1rem;
@@ -299,7 +299,7 @@ body {
   right: auto;
 }
 
-.galerry {
+.gallery {
   background-color: #f5f5f5;
 }
 
