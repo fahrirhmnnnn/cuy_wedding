@@ -353,6 +353,12 @@ footer li {
   margin: 0.5rem;
 }
 
+.rekening-logo {
+  height: 40px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
 .audio-icon-wrapper {
   width: 4rem;
   height: 4rem;
