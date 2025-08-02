@@ -394,7 +394,8 @@ footer li {
     transform: translateX(-50%) translateY(45px);
   }
 }
-/* Laptop */
+
+/* laptop */
 @media (max-width: 992px) {
   html {
     font-size: 75%;
@@ -414,7 +415,7 @@ footer li {
 
   .timeline li .timeline-image {
     left: 15px;
-    margin: 45px;
+    margin-left: 45px;
     top: 16px;
   }
 
@@ -438,7 +439,7 @@ footer li {
   }
 }
 
-/* Tablet */
+/* tablet */
 @media (max-width: 768px) {
   html {
     font-size: 65%;
@@ -449,14 +450,13 @@ footer li {
     margin: 5px;
   }
 
-  .sticky-top {
-    overflow-x: hidden;
-    overflow-y: visible;
-  }
-
   .mynavbar .nav-link {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .sticky-top {
+    overflow: hidden;
   }
 
   .timeline li .timeline-image {
