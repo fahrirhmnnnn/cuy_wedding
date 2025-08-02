@@ -399,6 +399,7 @@ footer li {
   html {
     font-size: 75%;
   }
+
   .simply-countdown > .simply-section {
     padding: 70px;
   }
@@ -448,28 +449,19 @@ footer li {
     margin: 5px;
   }
 
+  .sticky-top {
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
   .mynavbar .nav-link {
     font-size: 2rem;
     text-align: center;
   }
 
-  .sticky-top {
-    overflow: hidden;
-  }
-
   .timeline li .timeline-image {
     width: 140px;
     height: 140px;
-  }
-
-  .offcanvas-start {
-    visibility: hidden !important;
-    transform: translateX(-100%) !important;
-  }
-
-  .offcanvas.show {
-    visibility: visible !important;
-    transform: none !important;
   }
 }
 
